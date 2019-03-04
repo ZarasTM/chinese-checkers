@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="1188.0" y="978.0">Server.Server</node>
+    <node x="1188.0" y="213.0">Client.AccessibleField</node>
+    <node x="211.0" y="1608.0">Client.Board</node>
+    <node x="0.0" y="1608.0">Client.GameDirector</node>
+    <node x="303.0" y="411.0">Client.CCBoard6P</node>
+    <node x="907.0" y="1377.0">Client.Pawn</node>
+    <node x="518.0" y="411.0">Client.CCBoard4P</node>
+    <node x="573.0" y="978.0">Client.Client</node>
+    <node x="848.0" y="1608.0">Server.ServerMain</node>
+    <node x="0.0" y="1169.0">Client.Bot</node>
+    <node x="21.0" y="978.0">Client.Player</node>
+    <node x="0.0" y="1377.0">Server.Room</node>
+    <node x="733.0" y="411.0">Client.CCBoard3P</node>
+    <node x="289.0" y="1478.0">Client.CCWinning</node>
+    <node x="602.0" y="1478.0">Client.HexagonalAdjacency</node>
+    <node x="832.0" y="978.0">Client.MovingStrategy</node>
+    <node x="1269.0" y="0.0">Client.Field</node>
+    <node x="832.0" y="1101.0">Client.CCMoving</node>
+    <node x="1193.0" y="360.0">Client.WinningField</node>
+    <node x="600.0" y="0.0">Client.GameBuilder</node>
+    <node x="0.0" y="0.0">Client.Controller</node>
+    <node x="437.0" y="1608.0">Client.ColorPopupController</node>
+    <node x="602.0" y="1377.0">Client.AdjacencyStrategy</node>
+    <node x="1402.0" y="236.0">Client.InaccessibleField</node>
+    <node x="647.0" y="1608.0">Client.WinController</node>
+    <node x="289.0" y="1377.0">Client.WinningStrategy</node>
+    <node x="1443.0" y="1377.0">Client.Main</node>
+    <node x="948.0" y="411.0">Client.CCBoard2P</node>
+    <node x="305.0" y="978.0">Server.ServerThread</node>
+    <node x="1168.0" y="1377.0">Client.Game</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Client.CCBoard4P" target="Client.GameBuilder">
+      <point x="0.0" y="-91.5" />
+      <point x="615.5" y="391.0" />
+      <point x="692.25" y="391.0" />
+      <point x="-30.75" y="180.5" />
+    </edge>
+    <edge source="Client.WinningField" target="Client.AccessibleField">
+      <point x="0.0" y="-37.0" />
+      <point x="0.0" y="48.5" />
+    </edge>
+    <edge source="Client.CCWinning" target="Client.WinningStrategy">
+      <point x="0.0" y="-25.5" />
+      <point x="0.0" y="25.5" />
+    </edge>
+    <edge source="Client.HexagonalAdjacency" target="Client.AdjacencyStrategy">
+      <point x="0.0" y="-25.5" />
+      <point x="0.0" y="25.5" />
+    </edge>
+    <edge source="Client.Bot" target="Client.Player">
+      <point x="0.0" y="-81.5" />
+      <point x="0.0" y="70.5" />
+    </edge>
+    <edge source="Client.AccessibleField" target="Client.Field">
+      <point x="0.0" y="-48.5" />
+      <point x="1285.0" y="188.0" />
+      <point x="1331.5" y="188.0" />
+      <point x="-62.5" y="81.5" />
+    </edge>
+    <edge source="Client.CCBoard6P" target="Client.GameBuilder">
+      <point x="0.0" y="-91.5" />
+      <point x="400.5" y="381.0" />
+      <point x="630.75" y="381.0" />
+      <point x="-92.25" y="180.5" />
+    </edge>
+    <edge source="Client.CCMoving" target="Client.MovingStrategy">
+      <point x="0.0" y="-47.5" />
+      <point x="0.0" y="36.5" />
+    </edge>
+    <edge source="Client.CCBoard2P" target="Client.GameBuilder">
+      <point x="0.0" y="-91.5" />
+      <point x="1045.5" y="381.0" />
+      <point x="815.25" y="381.0" />
+      <point x="92.25" y="180.5" />
+    </edge>
+    <edge source="Client.InaccessibleField" target="Client.Field">
+      <point x="0.0" y="-25.5" />
+      <point x="1503.0" y="188.0" />
+      <point x="1456.5" y="188.0" />
+      <point x="62.5" y="81.5" />
+    </edge>
+    <edge source="Client.CCBoard3P" target="Client.GameBuilder">
+      <point x="0.0" y="-91.5" />
+      <point x="830.5" y="391.0" />
+      <point x="753.75" y="391.0" />
+      <point x="30.75" y="180.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.5000000000000001" x="1239.1163003663003" y="293.78540903540926" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Constructors</Category>
+    <Category>Properties</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
